@@ -17,7 +17,6 @@ BuildRequires:	perl-devel
 BuildRequires:	perl(Text::Glob)
 BuildRequires:	perl(Number::Compare)
 BuildArch:	noarch
-BuildRoot:	%{_tmppath}/%{name}-%{version}
 
 %description 
 File::Find::Rule is a friendlier interface to File::Find. It allows you to
