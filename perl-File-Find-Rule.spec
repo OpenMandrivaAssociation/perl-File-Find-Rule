@@ -1,14 +1,14 @@
 %define	modname	File-Find-Rule
-%define modver	0.32
+%define modver 0.33
 
 Summary:	Alternative interface to File::Find
 Name:		perl-%{modname}
 Version:	%perl_convert_version %{modver}
-Release:	9
+Release:	1
 License:	GPLv2+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{modname}
-Source0:	http://www.cpan.org/modules/by-module/File/%{modname}-%{modver}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/File/File-Find-Rule-%{modver}.tar.gz
 BuildArch:	noarch
 BuildRequires:	perl-devel
 BuildRequires:	perl(Text::Glob)
@@ -37,4 +37,5 @@ build rules which specify the desired files and directories.
 %{_mandir}/man1/*
 %{_mandir}/man3/*
 %{_bindir}/*
+
 
