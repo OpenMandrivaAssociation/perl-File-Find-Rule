@@ -32,7 +32,7 @@ build rules which specify the desired files and directories.
 %makeinstall_std
 
 %files
-%doc Changes README
+%doc Changes 
 %{perl_vendorlib}/File
 %{_mandir}/man1/*
 %{_mandir}/man3/*
