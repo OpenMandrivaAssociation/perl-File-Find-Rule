@@ -13,7 +13,7 @@ BuildArch:	noarch
 BuildRequires:	perl-devel
 BuildRequires:	perl(Text::Glob)
 BuildRequires:	perl(Number::Compare)
-BuildRequires:  perl(Test:More)
+BuildRequires:  perl(Test::More)
 
 %description 
 File::Find::Rule is a friendlier interface to File::Find. It allows you to
