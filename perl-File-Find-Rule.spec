@@ -1,10 +1,10 @@
 %define	modname	File-Find-Rule
-%define modver 0.33
+%define modver 0.34
 
 Summary:	Alternative interface to File::Find
 Name:		perl-%{modname}
 Version:	%perl_convert_version %{modver}
-Release:	9
+Release:	1
 License:	GPLv2+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{modname}
@@ -24,13 +24,10 @@ build rules which specify the desired files and directories.
 
 %build
 %__perl Makefile.PL INSTALLDIRS=vendor
-%make
-
-%check
-%make test
+%make_build
 
 %install
-%makeinstall_std
+%make_install
 
 %files
 %doc Changes 
